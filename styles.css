@@ -1,0 +1,98 @@
+@media (max-width: 768px) {
+    p {
+      font-size: 16px;
+    }
+    h1{
+      font-size:22px;
+    }
+    h2{
+      font-size:19px;
+    }
+    img{   
+        width:350px;
+
+    }
+  }
+  
+  body {
+    padding-top: 55px;
+    font-family: 'Roboto',sans-serif;
+  }
+  
+  h2{
+    text-align:center;
+    font-size:26px;
+  }
+  
+  h1{
+    text-align:center;
+  }
+  
+  #welcome-section{
+    font-size:22px;
+  }
+  
+  #navbar {
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    box-shadow: 0 0 10px 0.1px grey;
+     z-index: 1;
+  }
+  
+  #navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  #navbar li {
+    float: left;
+  }
+  
+  #navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  }
+  
+  #navbar li a:hover {
+    background-color: #111;
+  }
+  
+  #projects{
+    display:flex;
+    flex-direction: column;
+    align-items:center;
+    border-top:0.2px solid black;
+    justify-content: center;
+    
+  }
+  
+  ul{
+    display:flex;
+  justify-content:space-evenly;
+  }
+  
+  img{
+    box-shadow: 0 0 12px 0.1px grey;
+    max-width:400px;
+  }
+  
+  img:hover {
+    transform: scale(1.004);
+    box-shadow: 0 0 10px 0.1px black;
+  }
+  
+  a{
+     text-decoration: none;
+  }
+  
+  #booklist{
+    border-top:0.2px solid black;
+    margin:30px;
+  }
